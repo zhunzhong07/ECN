@@ -202,7 +202,7 @@ if __name__ == '__main__':
     parser.add_argument('--resume', type=str, default='', metavar='PATH')
     parser.add_argument('--evaluate', action='store_true',
                         help="evaluation only")
-    parser.add_argument('--epochs', type=int, default=50)
+    parser.add_argument('--epochs', type=int, default=60)
     parser.add_argument('--epochs_decay', type=int, default=40)
     parser.add_argument('--print-freq', type=int, default=1)
     # metric learning
